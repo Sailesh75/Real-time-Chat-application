@@ -4,8 +4,8 @@
   "description": "Fewatech chat app ",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server",
-    "start":"node server"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",
+    "mongoose": "^6.1.9",
     "socket.io": "^4.4.0"
   },
   "devDependencies": {

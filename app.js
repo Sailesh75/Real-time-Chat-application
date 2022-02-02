@@ -1,5 +1,5 @@
 //creating a express server
-
+//chat app 
 const express = require('express');
 const app = express();
 
@@ -25,5 +25,5 @@ io.on('connection', (socket) => {
     socket.on('message', (msg) => {
         socket.broadcast.emit('message', msg)
     })
-
+    
 })
